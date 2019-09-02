@@ -1,0 +1,655 @@
+!SESSION 2019-08-14 16:52:53.520 -----------------------------------------------
+eclipse.buildId=16.0.0.CI-000
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+
+!ENTRY org.eclipse.ui 2 0 2019-08-14 16:53:34.622
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-08-14 16:53:34.622
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-08-14 16:53:36.425
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-08-14 16:53:36.476
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2019-08-14 16:53:36.541
+!MESSAGE The file resources/css/dark.css Could not be found in bundle org.eclipse.lsp4e
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2019-08-14 16:53:37.287
+!MESSAGE The file resources/css/dark.css Could not be found in bundle org.eclipse.lsp4e
+
+!ENTRY org.eclipse.jface 2 0 2019-08-14 16:53:37.570
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 16:53:37.570
+!MESSAGE A conflict occurred for CTRL+SHIFT+Z:
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.eclipse.angularjs.ui.navigate.open.angular.element,Open Angular Element,
+		Opens an Angular Element in a JavaScript editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@536fddad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.skyway.core.ui.generate,Generate,
+		Generate with Skyway,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78b2504d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 16:53:37.570
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@babef5e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50bdd956,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 16:53:37.570
+!MESSAGE A conflict occurred for CTRL+SHIFT+V:
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(net.jeeeyul.pdetools.clipboard.pasteHistory,Paste Content in History,
+		,
+		Category(net.jeeeyul.pdetools.category,PDE Tools,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d12e459,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.command.OpenFromClipboard,Open from Clipboard,
+		Opens a Java element or a Java stack trace from clipboard,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1748e38e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.skyway.core.ui.validate,Validate,
+		Run Skyway Validation,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43cd2f26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-14 16:53:39.472
+!MESSAGE Invalid preference category path: org.eclipse.m2e.core.preferences.Maven2PreferencePage (bundle: org.eclipse.m2e.sourcelookup.ui, page: org.eclipse.m2e.sourcelookup.ui.internal.SourceLookupPreferencePage)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-08-14 16:53:48.162
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.modeling.ui.OverviewView' id and the 'JSF Flow Overview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2019-08-14 16:53:48.644
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-14 16:53:52.334
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.541
+!MESSAGE https://startbootstrap.com/assets/img/templates/grayscale.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/grayscale.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.567
+!MESSAGE https://startbootstrap.com/assets/img/templates/business-casual.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/business-casual.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.575
+!MESSAGE https://startbootstrap.com/assets/img/templates/bare.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/bare.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.580
+!MESSAGE https://startbootstrap.com/assets/img/templates/creative.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/creative.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.595
+!MESSAGE https://startbootstrap.com/assets/img/templates/freelancer.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/freelancer.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.596
+!MESSAGE https://startbootstrap.com/assets/img/templates/agency.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/agency.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.649
+!MESSAGE https://startbootstrap.com/assets/img/templates/one-page-wonder.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/one-page-wonder.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:57.877
+!MESSAGE https://startbootstrap.com/assets/img/templates/simple-sidebar.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/simple-sidebar.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:58.212
+!MESSAGE https://startbootstrap.com/assets/img/templates/sb-admin-2.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/sb-admin-2.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:58.278
+!MESSAGE https://startbootstrap.com/assets/img/templates/modern-business.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/modern-business.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:58.321
+!MESSAGE https://startbootstrap.com/assets/img/templates/clean-blog.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/clean-blog.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 16:53:59.402
+!MESSAGE https://startbootstrap.com/assets/img/templates/landing-page.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/landing-page.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.429
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.491
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.517
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.535
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.558
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.602
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.635
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.662
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.690
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.715
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 16:54:02.740
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_tiles_snippets.xml
+!SESSION 2019-08-14 17:09:06.407 -----------------------------------------------
+eclipse.buildId=16.0.0.CI-000
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-08-14 17:13:15.619
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2019-08-14 17:13:19.300
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-08-14 17:13:19.300
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2019-08-14 17:13:22.564
+!MESSAGE The file resources/css/dark.css Could not be found in bundle org.eclipse.lsp4e
+
+!ENTRY org.eclipse.jface 2 0 2019-08-14 17:13:23.869
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 17:13:23.869
+!MESSAGE A conflict occurred for CTRL+SHIFT+Z:
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.eclipse.angularjs.ui.navigate.open.angular.element,Open Angular Element,
+		Opens an Angular Element in a JavaScript editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24d18d17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.skyway.core.ui.generate,Generate,
+		Generate with Skyway,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7191c18b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 17:13:23.869
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b99e996,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@569df481,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 17:13:23.869
+!MESSAGE A conflict occurred for CTRL+SHIFT+V:
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(net.jeeeyul.pdetools.clipboard.pasteHistory,Paste Content in History,
+		,
+		Category(net.jeeeyul.pdetools.category,PDE Tools,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e8c7270,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.command.OpenFromClipboard,Open from Clipboard,
+		Opens a Java element or a Java stack trace from clipboard,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ee69b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.skyway.core.ui.validate,Validate,
+		Run Skyway Validation,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@259fe541,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-14 17:13:25.306
+!MESSAGE Invalid preference category path: org.eclipse.m2e.core.preferences.Maven2PreferencePage (bundle: org.eclipse.m2e.sourcelookup.ui, page: org.eclipse.m2e.sourcelookup.ui.internal.SourceLookupPreferencePage)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2019-08-14 17:13:35.134
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-08-14 17:13:37.556
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.modeling.ui.OverviewView' id and the 'JSF Flow Overview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-14 17:13:37.774
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.123
+!MESSAGE https://startbootstrap.com/assets/img/templates/landing-page.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/landing-page.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.128
+!MESSAGE https://startbootstrap.com/assets/img/templates/sb-admin-2.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/sb-admin-2.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.136
+!MESSAGE https://startbootstrap.com/assets/img/templates/clean-blog.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/clean-blog.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.145
+!MESSAGE https://startbootstrap.com/assets/img/templates/modern-business.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/modern-business.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.147
+!MESSAGE https://startbootstrap.com/assets/img/templates/grayscale.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/grayscale.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.149
+!MESSAGE https://startbootstrap.com/assets/img/templates/simple-sidebar.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/simple-sidebar.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.158
+!MESSAGE https://startbootstrap.com/assets/img/templates/bare.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/bare.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.348
+!MESSAGE https://startbootstrap.com/assets/img/templates/creative.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/creative.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.358
+!MESSAGE https://startbootstrap.com/assets/img/templates/freelancer.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/freelancer.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.365
+!MESSAGE https://startbootstrap.com/assets/img/templates/business-casual.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/business-casual.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:43.579
+!MESSAGE https://startbootstrap.com/assets/img/templates/agency.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/agency.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2019-08-14 17:13:45.133
+!MESSAGE https://startbootstrap.com/assets/img/templates/one-page-wonder.jpg
+!STACK 0
+java.io.FileNotFoundException: https://startbootstrap.com/assets/img/templates/one-page-wonder.jpg
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.422
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.426
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.428
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.431
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.434
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.437
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.442
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.445
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.449
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.454
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-08-14 17:13:47.456
+!MESSAGE Installed snippet library: E:\MyEclipse\myeclipse\myeclipse\configuration\org.eclipse.osgi\178\0\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.jface 2 0 2019-08-14 17:15:06.235
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-14 17:15:06.235
+!MESSAGE A conflict occurred for ALT+CTRL+/:
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f5ac2c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.hippieCompletion,Word Completion,
+		Context insensitive completion,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@443ca53a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,zh,,system)
+
+!ENTRY org.eclipse.jst.servlet.ui 4 0 2019-08-14 17:18:26.806
+!MESSAGE One or more constraints have not been satisfied.
+!STACK 1
+org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.jst.servlet.ui.internal.wizard.ServletProjectConfigurator.configure(ServletProjectConfigurator.java:98)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:510)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Contains: Dynamic Web Module 4.0 requires Java 1.8 or newer.
+!SUBENTRY 1 org.eclipse.wst.common.project.facet.core 4 0 2019-08-14 17:18:26.807
+!MESSAGE One or more constraints have not been satisfied.
+!SUBENTRY 2 org.eclipse.wst.common.project.facet.core 4 0 2019-08-14 17:18:26.807
+!MESSAGE Dynamic Web Module 4.0 requires Java 1.8 or newer.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-08-14 20:09:06.228
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-08-14 20:09:06.229
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
